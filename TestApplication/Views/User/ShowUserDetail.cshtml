@@ -1,0 +1,15 @@
+﻿@model TestApplication.Models.Person
+
+@{
+    ViewBag.Title = "ShowUserDetail";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Show User Detail</h2>
+
+
+<ul>
+    <li>Name: @Model.Name</li>
+    <li>Age: @Model.Age</li>
+    <li>Address: @Model.Address</li>
+</ul>
